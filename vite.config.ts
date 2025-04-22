@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // Use the exact repository name with correct capitalization
+  base: '/Website/',
 });
